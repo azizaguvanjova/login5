@@ -6,22 +6,6 @@
   --background: #ffffff;
   --foreground: #171717;
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.shape {
+  clip-path: polygon(0 57%, 100% 33%, 100% 100%, 0% 100%);
 }
